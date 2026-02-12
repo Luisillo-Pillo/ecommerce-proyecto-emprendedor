@@ -1,0 +1,31 @@
+.layout-container{
+    background-color: #f5f5dc;
+    margin: 0 -10px;
+}
+
+.layout-content{
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.most-popular{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-popular img{
+    max-height: 300px;
+    border: #006414 solid 5px;
+    border-radius: 30px;
+}
+
+h2{
+    font-size: 50px;
+    color: #006414;
+    margin-top: 60px;
+}
