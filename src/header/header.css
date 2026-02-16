@@ -13,6 +13,16 @@
 }
 
 .header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.plantita{
+    color: #f5f5dc;
+    font-size: 40px;
+}
+
+.logo{
     font-size: 3rem;
     color: #f5f5dc;
 }
@@ -59,13 +69,13 @@
     background-color: #f5f5dc;
 }
 
-ul{
+.header-menu{
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-.list-element{
+.header-list-element{
     text-decoration: none;
     color: #f5f5dc;
     margin-right: 20px;

@@ -22,9 +22,10 @@
     max-height: 300px;
     border: #006414 solid 5px;
     border-radius: 30px;
+    /* filter: invert(100%); */
 }
 
-h2{
+.most-popular h2{
     font-size: 50px;
     color: #006414;
     margin-top: 60px;
