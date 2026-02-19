@@ -1,6 +1,5 @@
 import "./layout.css"
 import { products } from "../productos";
-import ProductCard from "../ProductCard/productCard";
 
 export default function Layout () {
     return(
@@ -11,9 +10,7 @@ export default function Layout () {
                     <h2>¡Más Popular!</h2>
                 </div>
                 <div className="productos-container">
-                    <div>
-                        <ProductCard/>
-                    </div>
+                    <div></div>
                 </div>
             </div>
         </div>
