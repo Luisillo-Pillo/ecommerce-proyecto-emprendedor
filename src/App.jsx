@@ -2,6 +2,9 @@ import { useState } from 'react';
 import Header from './components/header/header';
 import Layout from './components/layout/layout';
 import Footer from '../src/components/footer/footer'
+import { CartProvider } from './context/CartContext.jsx'
+import { AuthProvider } from './context/AuthContext.jsx';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -10,9 +13,15 @@ function App() {
   return (
     <>
       <div className='App'>
-        <Header/>
-        <Layout/>
-        <Footer/>
+        <BrowserRouter>
+          <AuthProvider>
+            <CartProvider>
+              <Header/>
+              <Layout/>
+              <Footer/>
+            </CartProvider>
+          </AuthProvider>
+        </BrowserRouter>
       </div>
     </>
   )

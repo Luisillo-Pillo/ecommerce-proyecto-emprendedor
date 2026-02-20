@@ -1,5 +1,6 @@
 import "./layout.css"
 import ProductCard from "../productCard/ProductCard.jsx";
+import { products } from "../../products.js";
 
 export default function Layout () {
     return(
@@ -11,7 +12,9 @@ export default function Layout () {
                 </div>
                 <div className="productos-container">
                     <div>
-                        <ProductCard/>
+                        {products.map((producto) => (
+                            <ProductCard key={producto.id} product={producto} />
+                        ))}
                     </div>
                 </div>
             </div>

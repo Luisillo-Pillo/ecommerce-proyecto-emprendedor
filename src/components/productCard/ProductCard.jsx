@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import CartContext from '../../context/CartContext';
-import AuthContext from '../../context/AuthContext'
+import { CartContext } from '../../context/CartContext';
+import { AuthContext } from '../../context/AuthContext';
 import './ProductCard.css'
 
 const formatPrice = (price) => {
