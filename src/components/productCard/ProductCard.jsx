@@ -26,15 +26,15 @@ const ProductCard = ({ product }) => {
     };
 
     return(
-        <div className='productCard-container'>
-            <div className='productCard-image'>
-                <img src={product.image} alt={product.name} className='productCard-img'/>
+        <div className='product-card'>
+            <div className='product-card-image-wrapper'>
+                <img src={product.image} alt={product.name} className='product-card-image'/>
             </div>
-            <div className='productCard-info'>
+            <div className='product-card-info'>
                 <h3>{product.name}</h3>
-                <p className='productCard-price'>{formatPrice(product.price)}</p>
+                <p className='product-card-price'>{formatPrice(product.price)}</p>
             </div>
-            <div className='productCard-actions'>
+            <div className='product-card-actions'>
                 <Link to={`/product/${product.id}`} className='button-detail'>Ver Detalle</Link>
                 <button onClick={handleAddToCart}>Agregar al Carrito</button>
             </div>

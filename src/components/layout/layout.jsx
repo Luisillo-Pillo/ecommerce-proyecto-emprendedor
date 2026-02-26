@@ -11,11 +11,9 @@ export default function Layout () {
                     <h2>¡Más Popular!</h2>
                 </div>
                 <div className="productos-container">
-                    <div>
-                        {products.map((producto) => (
-                            <ProductCard key={producto.id} product={producto} />
-                        ))}
-                    </div>
+                    {products.map((producto) => (
+                        <ProductCard key={producto.id} product={producto} />
+                    ))}
                 </div>
             </div>
         </div>

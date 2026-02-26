@@ -7,7 +7,6 @@
     max-width: 95%;
     margin: 0 auto;
     text-align: center;
-    height: 90vh;
     margin-top: 50px;
 }
 
@@ -22,11 +21,36 @@
     max-height: 300px;
     border: #006414 solid 5px;
     border-radius: 30px;
-    /* filter: invert(100%); */
 }
 
 .most-popular h2{
     font-size: 50px;
     color: #006414;
     margin-top: 60px;
+}
+
+.productos-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 80px auto;
+}
+
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
 }

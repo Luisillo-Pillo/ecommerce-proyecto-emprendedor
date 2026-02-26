@@ -41,4 +41,18 @@ export const products = [
     description: 'Plantita 6.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3zlT-BBFhnmDbA2cHQoCAJNm8NbapRBq2v9Nip_OTlG14Vd3Qxj-h_9j9FIBjoDznU4ALyl4gp0HyYIG_c5XCAm056FI_x9XgvEBO5gCfw&s=10'
   },
+  {
+    id: 7,
+    name: 'Plantita 7',
+    price: 50,
+    description: 'Plantita 7.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3zlT-BBFhnmDbA2cHQoCAJNm8NbapRBq2v9Nip_OTlG14Vd3Qxj-h_9j9FIBjoDznU4ALyl4gp0HyYIG_c5XCAm056FI_x9XgvEBO5gCfw&s=10'
+  },
+  {
+    id: 8,
+    name: 'Plantita 8',
+    price: 50,
+    description: 'Plantita 8.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3zlT-BBFhnmDbA2cHQoCAJNm8NbapRBq2v9Nip_OTlG14Vd3Qxj-h_9j9FIBjoDznU4ALyl4gp0HyYIG_c5XCAm056FI_x9XgvEBO5gCfw&s=10'
+  },
 ];
