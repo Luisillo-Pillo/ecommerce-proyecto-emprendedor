@@ -24,9 +24,14 @@
 }
 
 .most-popular h2{
-    font-size: 50px;
+    font-size: 60px;
     color: #006414;
     margin-top: 60px;
+}
+
+.most-popular p{
+  font-size: 40px;
+  color: #009929;
 }
 
 .productos-container {

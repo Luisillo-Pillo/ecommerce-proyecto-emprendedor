@@ -27,7 +27,7 @@ export default function Footer () {
                     <li className='footer-menu-element'>
                         <FontAwesomeIcon icon={faWhatsapp} className='footer-menu-element'/>
                         <FontAwesomeIcon icon={faXTwitter} className='footer-menu-element'/>
-                        <FontAwesomeIcon icon={faInstagram} className='footer-menu-element'/>
+                        <a href="https://www.instagram.com/vitasembi?igsh=MXdnNzY2NmV5bng5NA==" target='_blank'><FontAwesomeIcon icon={faInstagram} className='footer-menu-element'/></a>
                         <FontAwesomeIcon icon={faFacebook} className='footer-menu-element'/>
                     </li>
                 </ul>

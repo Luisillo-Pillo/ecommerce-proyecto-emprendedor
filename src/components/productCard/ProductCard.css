@@ -2,7 +2,7 @@
     border: 1px solid var(--color-text-light);
     border-radius: 8px;
     padding: 1rem;
-    background-color: #5ccb5f;
+    background-color: #009929;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -87,4 +87,23 @@
   border-radius: 0 0 8px 8px;
   margin: 1rem -1rem -1rem -1rem;
   padding: 1rem;
+  background-color: #5ccb5f;
+}
+
+.button-cart{
+    border-radius: 5px;
+    border: 2px solid var(--color-primary);
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+    flex-grow: 1;
+    text-decoration: none;
+    background-color: #006414;
+}
+
+.button-cart:hover{
+    background-color: #efa229;
+    color: var(--color-background);
+  transform: none;
+  box-shadow: none;
 }

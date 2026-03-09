@@ -36,7 +36,7 @@ const ProductCard = ({ product }) => {
             </div>
             <div className='product-card-actions'>
                 <Link to={`/product/${product.id}`} className='button-detail'>Ver Detalle</Link>
-                <button onClick={handleAddToCart}>Agregar al Carrito</button>
+                <button onClick={handleAddToCart} className='button-cart'>Agregar al Carrito</button>
             </div>
         </div>
     );
